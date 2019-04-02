@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!--
+Copyright © 2019 Jakub Wilk <jwilk@jwilk.net>
+SPDX-License-Identifier: MIT
+-->
+<meta charset="UTF-8">
+<title>JavaScript sensor</title>
+<style>
+#status { font-weight: bold; }
+</style>
+<body>
+JavaScript is <span id='status'>disabled</span>.
+<script>
+"use strict";
+var elt = document.getElementById("status");
+elt.textContent = "enabled";
+</script>
+</body>
+</html>
